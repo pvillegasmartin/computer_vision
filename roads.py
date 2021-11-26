@@ -17,7 +17,9 @@ def note_image(img1_original,img_final):
     postprocess(img_final, predictions)
     return img_final
 
-cap = cv2.VideoCapture('test_videos/solidYellowLeft.mp4')
+cap = cv2.VideoCapture('test_videos/challenge.mp4')
+#cap = cv2.VideoCapture('test_videos/solidYellowLeft.mp4')
+#cap = cv2.VideoCapture('test_videos/solidWhiteRight.mp4')
 
 if (cap.isOpened()== False):
   print("Error opening video stream or file")
