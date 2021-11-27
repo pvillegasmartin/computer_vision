@@ -18,5 +18,4 @@ st.sidebar.write("""
 # Harsha""")
 
 uploaded_file = st.file_uploader("Choose a file")
-output = pd.read_csv(uploaded_file)
-st.write(output)  
+st.write()  
